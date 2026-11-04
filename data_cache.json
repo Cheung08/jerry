@@ -1,0 +1,177 @@
+{
+  "sensor_data_20260924_044121_900.csv": {
+    "mtimeMs": 1790214082387.7546,
+    "sizeBytes": 110237,
+    "trendPoint": {
+      "filename": "sensor_data_20260924_044121_900.csv",
+      "device_sn": "GSAA456",
+      "mtime": "2026/9/24 04:41:21",
+      "mtimeMs": 1790196081000,
+      "channel_types": {
+        "ch1": "G",
+        "ch2": "G",
+        "ch3": "G"
+      },
+      "ch1_type": "LMguide",
+      "ch1_type_code": "G",
+      "ch1_damage_avg": 21.25957500000002,
+      "ch1_lubrication_avg": 24.15399999999994,
+      "ch2_type": "LMguide",
+      "ch2_type_code": "G",
+      "ch2_damage_avg": 20.01756666666667,
+      "ch2_lubrication_avg": 32.85233333333332,
+      "ch3_type": "LMguide",
+      "ch3_type_code": "G",
+      "ch3_damage_avg": 23.666783333333363,
+      "ch3_lubrication_avg": 21.654516666666694,
+      "channel_objects": {
+        "ch1": "通道1 - 直线导轨",
+        "ch2": "通道2 - 直线导轨",
+        "ch3": "通道3 - 直线导轨"
+      },
+      "is_alarm": false,
+      "is_warning": false,
+      "alarm_details": []
+    }
+  },
+  "sensor_data_20260924_064121_900.csv": {
+    "mtimeMs": 1790214082499.119,
+    "sizeBytes": 110531,
+    "trendPoint": {
+      "filename": "sensor_data_20260924_064121_900.csv",
+      "device_sn": "GSAA456",
+      "mtime": "2026/9/24 06:41:21",
+      "mtimeMs": 1790203281000,
+      "channel_types": {
+        "ch1": "G",
+        "ch2": "G",
+        "ch3": "G"
+      },
+      "ch1_type": "LMguide",
+      "ch1_type_code": "G",
+      "ch1_damage_avg": 49.213516666666685,
+      "ch1_lubrication_avg": 54.16921666666668,
+      "ch2_type": "LMguide",
+      "ch2_type_code": "G",
+      "ch2_damage_avg": 47.416133333333335,
+      "ch2_lubrication_avg": 50.20278333333333,
+      "ch3_type": "LMguide",
+      "ch3_type_code": "G",
+      "ch3_damage_avg": 49.98798333333334,
+      "ch3_lubrication_avg": 48.32025000000001,
+      "channel_objects": {
+        "ch1": "通道1 - 直线导轨",
+        "ch2": "通道2 - 直线导轨",
+        "ch3": "通道3 - 直线导轨"
+      },
+      "is_alarm": false,
+      "is_warning": false,
+      "alarm_details": []
+    }
+  },
+  "sensor_data_20260924_084121_900.csv": {
+    "mtimeMs": 1790214082616.1982,
+    "sizeBytes": 114376,
+    "trendPoint": {
+      "filename": "sensor_data_20260924_084121_900.csv",
+      "device_sn": "GSAA456",
+      "mtime": "2026/9/24 08:41:21",
+      "mtimeMs": 1790210481000,
+      "channel_types": {
+        "ch1": "G",
+        "ch2": "G",
+        "ch3": "G"
+      },
+      "ch1_type": "LMguide",
+      "ch1_type_code": "G",
+      "ch1_damage_avg": 112.34885833333334,
+      "ch1_lubrication_avg": 95.00174166666659,
+      "ch2_type": "LMguide",
+      "ch2_type_code": "G",
+      "ch2_damage_avg": 47.66977499999998,
+      "ch2_lubrication_avg": 92.6898083333334,
+      "ch3_type": "LMguide",
+      "ch3_type_code": "G",
+      "ch3_damage_avg": 117.08066666666659,
+      "ch3_lubrication_avg": 127.61084166666653,
+      "channel_objects": {
+        "ch1": "通道1 - 直线导轨",
+        "ch2": "通道2 - 直线导轨",
+        "ch3": "通道3 - 直线导轨"
+      },
+      "is_alarm": false,
+      "is_warning": false,
+      "alarm_details": []
+    }
+  },
+  "THKS_20260828160537.csv": {
+    "mtimeMs": 1790213734886.2896,
+    "sizeBytes": 5168,
+    "trendPoint": {
+      "filename": "THKS_20260828160537.csv",
+      "device_sn": "DEFAULT",
+      "mtime": "2026/8/28 16:05:37",
+      "mtimeMs": 1787904337000,
+      "channel_types": {
+        "ch1": "S",
+        "ch2": "S",
+        "ch3": "S"
+      },
+      "ch1_type": "Ballscrew",
+      "ch1_type_code": "S",
+      "ch1_damage_avg": 22.343124999999993,
+      "ch1_lubrication_avg": null,
+      "ch2_type": "Ballscrew",
+      "ch2_type_code": "S",
+      "ch2_damage_avg": 13.922343749999998,
+      "ch2_lubrication_avg": null,
+      "ch3_type": "Ballscrew",
+      "ch3_type_code": "S",
+      "ch3_damage_avg": 10.845937500000002,
+      "ch3_lubrication_avg": null,
+      "channel_objects": {
+        "ch1": "通道1 - 滚珠丝杆",
+        "ch2": "通道2 - 滚珠丝杆",
+        "ch3": "通道3 - 滚珠丝杆"
+      },
+      "is_alarm": false,
+      "is_warning": false,
+      "alarm_details": []
+    }
+  },
+  "THKS_20260902112647.csv": {
+    "mtimeMs": 1790213734886.323,
+    "sizeBytes": 13914,
+    "trendPoint": {
+      "filename": "THKS_20260902112647.csv",
+      "device_sn": "DEFAULT",
+      "mtime": "2026/9/2 11:26:47",
+      "mtimeMs": 1788319607000,
+      "channel_types": {
+        "ch1": "S",
+        "ch2": "E",
+        "ch3": "E"
+      },
+      "ch1_type": "Ballscrew",
+      "ch1_type_code": "S",
+      "ch1_damage_avg": 29.109999999999992,
+      "ch1_lubrication_avg": null,
+      "ch2_type": "Disabled",
+      "ch2_type_code": "E",
+      "ch2_damage_avg": null,
+      "ch2_lubrication_avg": null,
+      "ch3_type": "Disabled",
+      "ch3_type_code": "E",
+      "ch3_damage_avg": null,
+      "ch3_lubrication_avg": null,
+      "channel_objects": {
+        "ch1": "通道1 - 滚珠丝杆",
+        "ch2": "通道2 - 未启用",
+        "ch3": "通道3 - 未启用"
+      },
+      "is_alarm": false,
+      "is_warning": false,
+      "alarm_details": []
+    }
+  }
+}

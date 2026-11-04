@@ -1,0 +1,6 @@
+{
+  "name": "设备健康度监控系统",
+  "description": "局域网 Web 端 CSV 自动化数据监控与可视化系统 (PHM)",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

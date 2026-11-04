@@ -1,0 +1,84 @@
+{
+  "thresholds": {
+    "ch1_damage_warning": 0,
+    "ch1_damage_alarm": 0,
+    "ch1_lubrication_warning": 0,
+    "ch1_lubrication_alarm": 0,
+    "ch2_damage_warning": 0,
+    "ch2_damage_alarm": 0,
+    "ch2_lubrication_warning": 0,
+    "ch2_lubrication_alarm": 0,
+    "ch3_type": "Ballscrew",
+    "ch3_damage_warning": 0,
+    "ch3_damage_alarm": 0,
+    "ch3_lubrication_warning": 0,
+    "ch3_lubrication_alarm": 0
+  },
+  "hotspots": [
+    {
+      "id": "ch1_damage",
+      "name": "通道1 (X轴) 导轨滑块",
+      "channel": "CH1",
+      "metric": "damage",
+      "axis": "X",
+      "x": 22,
+      "y": 38,
+      "z": 15
+    },
+    {
+      "id": "ch1_lubrication",
+      "name": "通道1 (X轴) 导轨润滑油槽",
+      "channel": "CH1",
+      "metric": "lubrication",
+      "axis": "X",
+      "x": 32,
+      "y": 42,
+      "z": 18
+    },
+    {
+      "id": "ch2_damage",
+      "name": "通道2 (Y轴) 导轨滑块",
+      "channel": "CH2",
+      "metric": "damage",
+      "axis": "Y",
+      "x": 52,
+      "y": 38,
+      "z": 35
+    },
+    {
+      "id": "ch2_lubrication",
+      "name": "通道2 (Y轴) 导轨润滑油槽",
+      "channel": "CH2",
+      "metric": "lubrication",
+      "axis": "Y",
+      "x": 62,
+      "y": 42,
+      "z": 38
+    },
+    {
+      "id": "ch3_damage",
+      "name": "通道3 (Z轴/Z坐标) 丝杆轴承座",
+      "channel": "CH3",
+      "metric": "damage",
+      "axis": "Z",
+      "x": 78,
+      "y": 58,
+      "z": 65
+    }
+  ],
+  "equipment_image_url": "",
+  "ftp_folder": "E:\\CSVdata",
+  "ftp_connection": {
+    "enabled": false,
+    "host": "",
+    "port": 21,
+    "user": "anonymous",
+    "password": "",
+    "remote_path": "/",
+    "passive": true,
+    "delete_remote_after_download": false,
+    "auto_scan": true
+  },
+  "poll_interval_sec": 5,
+  "auto_sim_active": false
+}
