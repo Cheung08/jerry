@@ -1,6 +1,6 @@
 # 智能健康监测与数据同步系统
 
-本项目是一个基于 **React 19 + TypeScript + Tailwind CSS**（前端）与 **Node.js Express + Chokidar + basic-ftp（后端）开发的件健康状态监测、波形分析与文件实时同步平台。
+本项目是一个基于 **React 19 + TypeScript + Tailwind CSS**（前端）与 **Node.js Express + Chokidar + basic-ftp（后端）开发的健康状态观测、波形分析平台。
 
 ---
 
@@ -62,15 +62,15 @@ npm run dev
 
 ---
 
-##  项目核心架构与功能说明
+##  项目架构与功能说明
 
 - **后端核心 (`server.ts`, `server/`)**：
   - `server.ts`: Express 主服务入口，统一接管 `/api/*` 数据路由与 Vite 静态资源分发。
   - `server/local_watcher.ts`: 基于 `chokidar` 的物理磁盘常驻监听引擎，原生支持 Windows 绝对路径（如 `D:\data`），支持 `add`、`change`、`unlink` 文件事件与 1000ms 批量写入防抖。
   - `server/ftp_scanner.ts`: 远程 FTP 定时拉取扫描与本地缓存增量同步管理器。
-  - `server/csv_parser.ts`: 工业级 CSV 波形解析、统计特征提取与健康度计算算法。
+  - `server/csv_parser.ts`: CSV 波形解析、统计特征提取与健康度计算。
 - **前端核心 (`src/`)**：
-  - `src/App.tsx`: 主控台与 3 秒无感增量感知轮询中枢。
+  - `src/App.tsx`: 主控台与 3 秒感知轮询。
   - `src/components/LongTermTrendTab.tsx`: 长期趋势折线图、阈值基准红线与健康度雷达/热力图。
   - `src/components/SingleWaveformTab.tsx`: 单波形多通道原始振动/润滑数据查看与时域分析。
   - `src/components/ConfigDrawer.tsx`: 包含远程 FTP 同步中心、通道双阶阈值配置、本地目录监听与数据仓运维管理。
