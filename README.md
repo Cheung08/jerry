@@ -1,6 +1,6 @@
-# 智能健康监测与数据同步系统 (PHM Data Sync & Monitoring)
+# 智能健康监测与数据同步系统
 
-本项目是一个基于 **React 19 + TypeScript + Tailwind CSS**（前端）与 **Node.js Express + Chokidar + basic-ftp**（全栈后端）开发的件健康状态监测、波形分析与文件实时同步系统。
+本项目是一个基于 **React 19 + TypeScript + Tailwind CSS**（前端）与 **Node.js Express + Chokidar + basic-ftp**（后端）开发的件健康状态监测、波形分析与文件实时同步系统。
 
 ---
 
