@@ -1,5 +1,3 @@
-# 智能健康监测与数据同步系统
-
 本项目是一个基于 **React 19 + TypeScript + Tailwind CSS**（前端）与 **Node.js Express + Chokidar + basic-ftp（后端）开发的健康状态观测、波形分析平台。
 
 ---
